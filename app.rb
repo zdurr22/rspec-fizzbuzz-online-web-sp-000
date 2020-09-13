@@ -5,5 +5,12 @@ if age < 21
 elsif age >= 25
   puts "You are able to rent a car without fees. Have a good day!"
 else
+  puts "How many days will you be renting for?"
+  rental_days = gets.strip.to_i
+  fee_per_day = 20
+  fee = rental_days * fee_per_day
+  puts "You will owe #{fee}"
+  puts "What state are you from?"
+  state = gets.strip
 
 end
