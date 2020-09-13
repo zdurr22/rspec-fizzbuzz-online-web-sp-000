@@ -10,6 +10,7 @@ else
   fee_per_day = 20
   fee = rental_days * fee_per_day
   puts "You will owe #{fee}"
+  
   puts "What state are you from?"
   state = gets.strip
 
