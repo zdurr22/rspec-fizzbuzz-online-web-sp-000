@@ -9,15 +9,15 @@ age = gets.strip.to_i
       rental_days = gets.strip.to_i
       fee_per_day = 20
       fee = rental_days * fee_per_day
-    puts "You will owe #{fee}"
+    puts "You will owe a fee of $#{fee}"
   end
 puts "What state are you from?"
 state = gets.strip
   if state == "NY" || "New York" || "new york"
     ny_state_fee = 20
-    puts "You owe $#{ny_state_fee}"
+    puts "You will also owe a state fee of $#{ny_state_fee}"
   elsif state == "MI" || "Michigan" || "michigan"
     mi_state_fee = 25
-    puts "You also owe $#{mi_state_fee}"
+    puts "You will also owe a state fee of $#{mi_state_fee}"
 
   end
