@@ -19,5 +19,7 @@ state = gets.strip
   elsif state == "MI" || "Michigan" || "michigan"
     mi_state_fee = 25
     puts "You will also owe a state fee of $#{mi_state_fee}"
+  else
+    puts "There will be no additional state fees"
 
   end
